@@ -1,5 +1,7 @@
 // pages/index.tsx
+import Header from "@/components/Header";
 import ImageCard from "../components/ImageCard";
+import FooterSection from "@/components/Footer";
 
 interface ImageData {
   modelImage: string;
@@ -86,7 +88,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="bg-gray-100">
       {/* Navigation Bar */}
-      <nav className="bg-blue-500 py-4 px-6">
+      {/* <nav className="bg-blue-500 py-4 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <a href="/" className="text-white font-bold text-xl">
             Image Gallery
@@ -109,7 +111,8 @@ const HomePage: React.FC = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> */}
+      <Header/>
 
       {/* Hero Section */}
       <section className="bg-blue-500 py-20">
@@ -145,11 +148,12 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-500 py-6">
+      {/* <footer className="bg-blue-500 py-6">
         <div className="container mx-auto text-center text-white">
           <p>&copy; 2023 Image Gallery. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
+      <FooterSection/>
     </div>
   );
 };

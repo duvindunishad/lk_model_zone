@@ -1,5 +1,6 @@
 import React from "react";
 import vinu from "../components/Images/vinu.jpg";
+import Image from 'next/image';
 
 const Body: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Body: React.FC = () => {
         {/* Left Section: Image/Decorative */}
         <div className="w-1/2 bg-gray-100 flex items-center justify-center p-8">
           <div className="grid gap-6">
-            <image
+            <Image
               src={vinu}
               alt="vinu"
               className="rounded-lg object-cover w-full h-auto"
