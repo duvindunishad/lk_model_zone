@@ -11,7 +11,7 @@ const FooterSection: React.FC = () => {
             <h3 className="font-bold mb-4">INFORMATION</h3>
             <ul className="space-y-2">
               <li>About Us</li>
-              <li>Latest Update photoshoots</li>
+              <li>Latest Update Photo Shoots</li>
               <li>Event</li>
               <li>Help Center</li>
             </ul>
